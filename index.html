@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nguyen Viet Thien Quoc | salt4</title>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body data-theme="light">
+    <nav class="global-nav">
+        <div class="nav-toggle-wrapper">
+            <button class="nav-toggle active" data-page="notes">/ notes</button>
+            <button class="nav-toggle" data-page="projects">/ projects</button>
+        </div>
+    </nav>
+
+    <div id="content-wrapper">
+        <!-- notes page -->
+        <main id="notes-page" class="container page-view active">
+            <header class="intro-section">
+                <div class="bio-flex">
+                    <div class="profile-pic">
+                        <img src="assets/profile.jpg" alt="Nguyen Viet Thien Quoc | salt4">
+                    </div>
+                    <div class="bio-text-container">
+                        <div class="speech-bubble">
+                            <p>👋 Hello! I am <strong>Nguyen Viet Thien Quoc</strong>, a Game Developer currently building cool things.</p>
+                            <p class="contact-links">quocnguyentdt@gmail.com / <a href="assets/resume.pdf" target="_blank" rel="noopener noreferrer">resume</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="bio-box description-box">
+                    <p>Here I write about game projects, graphics programming and other topics that interest me.</p>
+                </div>
+            </header>
+        <section class="adventures">
+            <h2 class="section-heading">My adventures in</h2>
+            <div class="tab-switcher">
+                <button class="tab-btn active" data-tab="games">games</button>
+                <button class="tab-btn" data-tab="graphics">graphics</button>
+                <button class="tab-btn" data-tab="life">life</button>
+            </div>
+
+            <!-- games -->
+            <div id="games" class="tab-content active">
+                <div class="modern-card">
+                    <div class="card-body">
+                        <h3>🐭 A cursor for augmented reality</h3>
+                        <p>Design considerations for a high-fidelity cursor in augmented reality.</p>
+                        <span class="card-date">September 2023</span>
+                    </div>
+                    <div class="card-image-box"></div>
+                </div>
+            </div>
+            <!-- end games -->
+
+            <!-- graphics -->
+            <div id="graphics" class="tab-content">
+                <div class="modern-card">
+                    <div class="card-body">
+                        <h3>🖋️ Edge Detection Outlines</h3>
+                        <p>How to draw edge detection outlines in Unity.</p>
+                        <span class="card-date">December 2024</span>
+                    </div>
+                    <div class="card-image-box"></div>
+                </div>
+            </div>
+            <!-- end graphics -->
+            
+            <!-- life -->
+            <div id="life" class="tab-content">
+                <div class="timeline-container">
+                    <div class="timeline-event">
+                        <div class="event-marker"></div>
+                        <div class="event-details">
+                            <p>Let's find out!</p>
+                            <p>quocnguyentdt@gmail.com / <a href="assets/resume.pdf" target="_blank">resume</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-event">
+                        <div class="event-marker"></div>
+                        <div class="event-details">
+                            <h3>👨‍💻 Unity Developer</h3>
+                            <span class="event-date">2023 -> present</span>
+                        </div>
+                    </div>
+
+                    <div class="timeline-event">
+                        <div class="event-marker filled"></div>
+                        <div class="event-details">
+                            <h3>☀️ Internship Unity Developer</h3>
+                            <span class="event-date">2022 -> 2023</span>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-event">
+                        <div class="event-marker filled"></div>
+                        <div class="event-details">
+                            <h3>🎓 Unity Certificate</h3>
+                            <span class="event-date">2022 -> 2023</span>
+                        </div>
+                    </div>
+
+                    <div class="timeline-event">
+                        <div class="event-marker filled"></div>
+                        <div class="event-details">
+                            <h3>🎓 Bachelor Computer Science</h3>
+                            <span class="event-date">2021 -> 2025</span>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <!-- end life -->
+        </section>
+        </main>
+
+        <!-- projects page -->
+        <main id="projects-page" class="container page-view">
+            <header class="intro-section">
+                <h2 class="section-heading large">Things I worked on</h2>
+                <p class="subtitle">An overview of some of the projects I have worked on. Some smaller, some bigger. Hover over the videos to watch them play.</p>
+                
+                <div class="contact-card">
+                    <p>Want to work with me or get in touch?</p>
+                    <p>📧 <a href="mailto:quocnguyentdt@gmail.com">quocnguyentdt@gmail.com</a></p>
+                </div>
+            </header>
+
+            <div class="project-grid">
+                <div class="grid-item">
+                    <div class="thumb-container">
+                        <img src="linework-thumb.jpg" alt="Linework" class="grid-thumb">
+                    </div>
+                    <div class="grid-meta">
+                        <h3>Linework</h3>
+                        <p>A Practical Toolkit for Rendering Outlines in Unity</p>
+                    </div>
+                </div>
+
+                <div class="grid-item">
+                    <div class="thumb-container">
+                        <img src="shoreline-thumb.jpg" alt="Shoreline" class="grid-thumb">
+                    </div>
+                    <div class="grid-meta">
+                        <h3>Shoreline shader</h3>
+                    </div>
+                </div>
+
+                <div class="grid-item">
+                    <div class="thumb-container">
+                        <img src="circular-menu-thumb.jpg" alt="Circular Menu" class="grid-thumb">
+                    </div>
+                    <div class="grid-meta">
+                        <h3>Circular menu for the Unity Editor</h3>
+                    </div>
+                </div>
+
+                <div class="grid-item">
+                    <div class="thumb-container">
+                        <img src="aether-thumb.jpg" alt="Aether" class="grid-thumb">
+                    </div>
+                    <div class="grid-meta">
+                        <h3>Aether</h3>
+                        <p>Path tracer written in Rust</p>
+                    </div>
+                </div>
+
+                <div class="grid-item">
+                    <div class="thumb-container">
+                        <img src="water-caustics-thumb.jpg" alt="Water Caustics" class="grid-thumb">
+                    </div>
+                    <div class="grid-meta">
+                        <h3>Water caustics shader</h3>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
